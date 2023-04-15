@@ -1,3 +1,4 @@
+import models.CarModel;
 import models.TransportModel;
 
 import java.util.*;
@@ -46,6 +47,10 @@ public class Main {
         map.put("speed", "1.5");
         TransportModel transportModel1 = new TransportModel(map);
         transportModel1.printTransport();
+
+
+        CarModel newCarmodel = new CarModel(1, 3, "", new byte[]{});
+
     }
 
 

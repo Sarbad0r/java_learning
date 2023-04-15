@@ -2,6 +2,9 @@ package models;
 
 public class TruckModel extends TransportModel {
 
+
+    private boolean loaded;
+
     public TruckModel(float speed, float weight, String color, byte[] coordinate) {
         //instead of writing
         // this.speed = speed;
@@ -12,4 +15,7 @@ public class TruckModel extends TransportModel {
         super(speed, weight, color, coordinate);
     }
 
+    public void setLoaded(boolean loaded) {
+        this.loaded = loaded;
+      }
 }
