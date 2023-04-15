@@ -1,4 +1,5 @@
 import models.CarModel;
+import models.ClassWithInterface;
 import models.TransportModel;
 
 import java.util.*;
@@ -51,6 +52,12 @@ public class Main {
 
         CarModel newCarmodel = new CarModel(1, 3, "", new byte[]{});
 
+
+        ClassWithInterface classWithInterface = new ClassWithInterface();
+
+        classWithInterface.solveTheProblem("AvazSho");
+
+        System.out.println(classWithInterface.returnName());
     }
 
 
